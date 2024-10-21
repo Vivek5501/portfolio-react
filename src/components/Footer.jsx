@@ -16,15 +16,15 @@ const Footer = () => {
             <img src={mail_icon} alt="" className="w-6 dark:hidden"/>
             <img src={mail_icon_dark} alt="" className="w-6 hidden dark:block"/>
 
-            greatstackdev@gmail.com
+           vk2003vivek@gmail.com
         </div>
     </div>
     <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>© 2024 Eliana Jade. All rights reserved.</p>
+        <p>© 2024 Vivek. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-            <li><a target='_blank' href="https://instagram.com/greatstackdev">GitHub</a></li>
-            <li><a target='_blank' href="https://instagram.com/greatstackdev">LinkedIn</a></li>
-            <li><a target='_blank' href="https://instagram.com/greatstackdev">Twitter</a></li>
+            <li><a target='_blank' href="https://github.com/Vivek5501">GitHub</a></li>
+            <li><a target='_blank' href="https://www.linkedin.com/in/vivek-thakur-59a70418a/">LinkedIn</a></li>
+            <li><a target='_blank' href="https://leetcode.com/u/Vivek_1027/">Leetcode</a></li>
         </ul>
     </div>
  </div>
