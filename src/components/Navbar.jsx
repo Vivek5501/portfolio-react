@@ -46,7 +46,7 @@ const Navbar = () => {
         }
     })
     
-    // -------- light mode and dark mode -----------
+   
     
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.classList.add('dark')
@@ -67,11 +67,11 @@ const Navbar = () => {
 
     <nav ref={navRef} className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
 
-        <img src={logo} alt="Logo"
+        {/* <img src={logo} alt="Logo"
         className="w-28 cursor-pointer mr-14 dark:hidden" />
 
         <img src={logo_dark} alt="Logo"
-        className="w-28 cursor-pointer mr-14 hidden dark:block" />
+        className="w-28 cursor-pointer mr-14 hidden dark:block" /> */}
 
         <ul ref={navLinkRef} className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo
         dark:border dark:border-white/50 dark:bg-transparent ">
